@@ -1,0 +1,2 @@
+(this["webpackJsonppeople-finder"]=this["webpackJsonppeople-finder"]||[]).push([[0],{11:function(e,n,t){"use strict";t.r(n);var c=t(1),r=t.n(c),s=t(3),a=t.n(s),i=(t(8),t(9),t(0));var p=function(){return Object(i.jsx)("div",{className:"app",children:Object(i.jsx)("header",{className:"app-header"})})};a.a.render(Object(i.jsx)(r.a.StrictMode,{children:Object(i.jsx)(p,{})}),document.getElementById("root"))},8:function(e,n,t){},9:function(e,n,t){}},[[11,1,2]]]);
+//# sourceMappingURL=main.8f76ad74.chunk.js.map

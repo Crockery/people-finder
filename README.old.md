@@ -1,2 +1,0 @@
-# people-finder
-Find people!
