@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/people-finder/static/css/main.4f457293.chunk.css",
-    "main.js": "/people-finder/static/js/main.536cd1ca.chunk.js",
-    "main.js.map": "/people-finder/static/js/main.536cd1ca.chunk.js.map",
+    "main.css": "/people-finder/static/css/main.46a76957.chunk.css",
+    "main.js": "/people-finder/static/js/main.2f7374ae.chunk.js",
+    "main.js.map": "/people-finder/static/js/main.2f7374ae.chunk.js.map",
     "runtime-main.js": "/people-finder/static/js/runtime-main.e8816227.js",
     "runtime-main.js.map": "/people-finder/static/js/runtime-main.e8816227.js.map",
     "static/js/2.68bde440.chunk.js": "/people-finder/static/js/2.68bde440.chunk.js",
     "static/js/2.68bde440.chunk.js.map": "/people-finder/static/js/2.68bde440.chunk.js.map",
     "index.html": "/people-finder/index.html",
-    "static/css/main.4f457293.chunk.css.map": "/people-finder/static/css/main.4f457293.chunk.css.map",
+    "static/css/main.46a76957.chunk.css.map": "/people-finder/static/css/main.46a76957.chunk.css.map",
     "static/js/2.68bde440.chunk.js.LICENSE.txt": "/people-finder/static/js/2.68bde440.chunk.js.LICENSE.txt",
     "static/media/AirLogo.dccda281.svg": "/people-finder/static/media/AirLogo.dccda281.svg",
     "static/media/Close.b9af12b9.svg": "/people-finder/static/media/Close.b9af12b9.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e8816227.js",
     "static/js/2.68bde440.chunk.js",
-    "static/css/main.4f457293.chunk.css",
-    "static/js/main.536cd1ca.chunk.js"
+    "static/css/main.46a76957.chunk.css",
+    "static/js/main.2f7374ae.chunk.js"
   ]
 }
