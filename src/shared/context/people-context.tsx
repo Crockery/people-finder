@@ -1,11 +1,11 @@
-import React, { createContext, memo, useMemo } from 'react';
+import React, { createContext, memo, useMemo, useContext } from 'react';
 
 import PeopleData from '../../data/people.json';
-
-import { Person } from '../typings/people';
+import { SearchBarContext } from './search-bar-context';
+import { IPerson } from '../typings/people';
 
 export interface IPeopleContext {
-  people: Person[]
+  people: IPerson[]
 }
 
 export const PeopleContext = createContext<IPeopleContext>({
@@ -17,9 +17,16 @@ interface Props {
 }
 
 export const PeopleContextProvider = memo(({ children }: Props) => {
-  const peopleData = useMemo<Person[]>(() => PeopleData, []);
+  const { searchText } = useContext(SearchBarContext);
 
-  const filteredPeople = useMemo<Person[]>(() => peopleData, [peopleData]);
+  const peopleData = useMemo<IPerson[]>(() => PeopleData, []);
+
+  const filteredPeople = useMemo<IPerson[]>(
+    () => peopleData.filter(
+      person => person.name.toLowerCase().includes(searchText.toLowerCase())
+    ),
+    [peopleData, searchText],
+  );
 
   return (
     <PeopleContext.Provider

@@ -2,7 +2,8 @@ import React from 'react';
 
 import { ReactComponent as Logo } from './assets/images/AirLogo.svg';
 
-import { SearchBar } from './SearchBar/SearchBar';
+import { SearchBar } from './components/SearchBar';
+import { PeopleList } from './PeopleList/PeopleList';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ export const App = React.memo(() => (
         If you just can’t find someone and need to know what they look like, you’ve come to the right place! Just type the name of the person you are looking for below into the search box!
       </p>
       <SearchBar />
+      <PeopleList />
     </section>
   </main>
 ));
