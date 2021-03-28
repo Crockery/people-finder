@@ -7,7 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Georgia';
+  src: local('Georgia'), url(./assets/fonts/Georgia-Regular.ttf) format('truetype');
+}
+
+:root {
+  --teal: #33DBDB;
+  --blue: #102261;
+  --black: #333333;
+  --grey-dark: #666666;
+  --grey-medium: #808080;
+  --grey-light: #C4C4C4;
+  --off-white: #EFEFEF;
+  --white: #E5E5E5;
 }
