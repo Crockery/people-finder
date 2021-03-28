@@ -1,4 +1,5 @@
 body {
+  background-color: var(--white);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,6 +13,11 @@ body {
   src: local('Georgia'), url(./assets/fonts/Georgia-Regular.ttf) format('truetype');
 }
 
+p {
+  font-family: 'Helvetica Neue';
+  font-style: 'normal';
+}
+
 :root {
   --teal: #33DBDB;
   --blue: #102261;
@@ -20,5 +26,5 @@ body {
   --grey-medium: #808080;
   --grey-light: #C4C4C4;
   --off-white: #EFEFEF;
-  --white: #E5E5E5;
+  --white: #FFFFFF;
 }
