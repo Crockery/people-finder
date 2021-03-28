@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/people-finder/static/css/main.8e1b2790.chunk.css",
-    "main.js": "/people-finder/static/js/main.8f76ad74.chunk.js",
-    "main.js.map": "/people-finder/static/js/main.8f76ad74.chunk.js.map",
+    "main.css": "/people-finder/static/css/main.4f457293.chunk.css",
+    "main.js": "/people-finder/static/js/main.536cd1ca.chunk.js",
+    "main.js.map": "/people-finder/static/js/main.536cd1ca.chunk.js.map",
     "runtime-main.js": "/people-finder/static/js/runtime-main.e8816227.js",
     "runtime-main.js.map": "/people-finder/static/js/runtime-main.e8816227.js.map",
-    "static/js/2.36399660.chunk.js": "/people-finder/static/js/2.36399660.chunk.js",
-    "static/js/2.36399660.chunk.js.map": "/people-finder/static/js/2.36399660.chunk.js.map",
+    "static/js/2.68bde440.chunk.js": "/people-finder/static/js/2.68bde440.chunk.js",
+    "static/js/2.68bde440.chunk.js.map": "/people-finder/static/js/2.68bde440.chunk.js.map",
     "index.html": "/people-finder/index.html",
-    "static/css/main.8e1b2790.chunk.css.map": "/people-finder/static/css/main.8e1b2790.chunk.css.map",
-    "static/js/2.36399660.chunk.js.LICENSE.txt": "/people-finder/static/js/2.36399660.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/people-finder/static/media/Georgia-Regular.af2a95bc.ttf"
+    "static/css/main.4f457293.chunk.css.map": "/people-finder/static/css/main.4f457293.chunk.css.map",
+    "static/js/2.68bde440.chunk.js.LICENSE.txt": "/people-finder/static/js/2.68bde440.chunk.js.LICENSE.txt",
+    "static/media/AirLogo.dccda281.svg": "/people-finder/static/media/AirLogo.dccda281.svg",
+    "static/media/Close.b9af12b9.svg": "/people-finder/static/media/Close.b9af12b9.svg",
+    "static/media/index.css": "/people-finder/static/media/Georgia-Regular.af2a95bc.ttf",
+    "static/media/Magnifiying.c31d5d2f.svg": "/people-finder/static/media/Magnifiying.c31d5d2f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8816227.js",
-    "static/js/2.36399660.chunk.js",
-    "static/css/main.8e1b2790.chunk.css",
-    "static/js/main.8f76ad74.chunk.js"
+    "static/js/2.68bde440.chunk.js",
+    "static/css/main.4f457293.chunk.css",
+    "static/js/main.536cd1ca.chunk.js"
   ]
 }
