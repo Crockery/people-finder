@@ -7358,6 +7358,11 @@ mini-css-extract-plugin@0.11.3:
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
+mini-debounce@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/mini-debounce/-/mini-debounce-1.0.8.tgz#8936a7c8892c71078936930e1a025e5a5392a45c"
+  integrity sha512-EqUsV34zuw2N9UHjRl1bwaDiLe1d/P8AemSp/EbDjOsZ7gB+z+7F9wcJWqfU3QpPnHD1oKGe2n6Fw90QsLkBkA==
+
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
