@@ -41,3 +41,16 @@
     line-height: 1.5;
     color: var(--grey-dark);
 }
+
+@media only screen and (max-width: 400px) {
+    .person__avatar {
+        width: 72px;
+        height: 72px;
+    }
+    .person__details h3 {
+        font-size: 14px;
+    }
+    .person__details p {
+        font-size: 12px;
+    }
+}
