@@ -1,6 +1,6 @@
 import React, { createContext, memo, useMemo } from 'react';
 
-import * as PeopleData from '../../data/people.json';
+import PeopleData from '../../data/people.json';
 
 import { Person } from '../typings/people';
 
@@ -29,6 +29,7 @@ export const PeopleContextProvider = memo(({ children }: Props) => {
     >
       {children}
     </PeopleContext.Provider>
-  )
-})
+  );
+});
 
+PeopleContextProvider.displayName = 'PeopleContextProvider';

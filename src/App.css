@@ -11,6 +11,9 @@
 .app__logo {
   width: 100%;
   padding-left: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .app__logo figure {

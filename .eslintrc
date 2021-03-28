@@ -1,12 +1,13 @@
 {
     "extends": [
+        "plugin:jsx-a11y/recommended",
         "airbnb-typescript",
         "airbnb/hooks",
         "plugin:@typescript-eslint/recommended",
         "plugin:jest/recommended",
         "prettier"
     ],
-    "plugins": ["react", "@typescript-eslint", "jest"],
+    "plugins": ["react", "@typescript-eslint", "jest", "jsx-a11y"],
     "env": {
         "browser": true,
         "es6": true,
@@ -29,6 +30,7 @@
         "import/prefer-default-export": "off",
         "@typescript-eslint/camelcase": "off",
         "linebreak-style": "off",
-        "indent": ["error", 2]
+        "indent": ["error", 2],
+        "semi": 1
     }
 }
