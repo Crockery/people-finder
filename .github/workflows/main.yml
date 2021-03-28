@@ -21,5 +21,4 @@ jobs:
         run: |
           npm install # or yarn install
           npm run lint # or yarn lint
-          npm run test # or yarn test
           npm run build # or yarn build
